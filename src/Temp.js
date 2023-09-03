@@ -91,7 +91,7 @@ function Temp() {
                         </div>
                     </div>
                     <div className='title text-center'>
-                        <div className='search'>
+                        <div className='searchs'>
                             <p id="degree">{cel}<span className='cel'>o</span>Celsisus</p>
                         </div>
                     </div>

@@ -107,13 +107,6 @@
   font-size: 1.2rem;
 }
 
-.searchs {
-  height: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .title {
   font-size: 1.8rem;
 }
@@ -335,12 +328,6 @@ input:checked+.slider:after {
   position: absolute;
   top: 9px;
   right: 18px;
-}
-
-.ther {
-  position: relative;
-  rotate: -9.4deg;
-  right: 40px;
 }
 
                                                               /*M E D I A Q U E R I E S  */

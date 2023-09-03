@@ -27,7 +27,7 @@ function Temp() {
     }
     const convertbtn = () => {
         newtemp("")
-        // Farehnhit to celcius         let ntemp = Number.parseInt(temp)
+        // Farehnhit to celcius 
         let Celsius = ((ntemp - 32) * (5 / 9))
         let newcel = Math.round(Celsius)
         console.log("Cel" + newcel)
@@ -39,7 +39,7 @@ function Temp() {
             let newcel = Math.round(Fahrenheit)
             console.log("Far" + newcel)
             document.getElementById("degree").innerHTML = (newcel + "°Fahrenheit")
-         
+
         }
     }
     return (
@@ -94,8 +94,6 @@ function Temp() {
                             <p id="degree">{cel}<span className='cel'>o</span>Celsisus</p>
                         </div>
                     </div>
-                    <div className='weather text-center'>
-                       </div>
                 </div>
             </div>
         </>

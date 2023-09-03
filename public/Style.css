@@ -303,7 +303,6 @@ input:checked+.slider:after {
 .search-box-icon {
   width: 3.5rem;
   height: 2.2rem;
-  /* border: 2px solid black; */
   position: absolute;
   top: -6px;
   right: -21px;
@@ -344,7 +343,7 @@ input:checked+.slider:after {
   right: 40px;
 }
 
-/* Media Queries */
+                                                              /*M E D I A Q U E R I E S  */
 
 @media(max-width:758px) {
   .head {

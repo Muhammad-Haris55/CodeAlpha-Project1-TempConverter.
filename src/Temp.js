@@ -8,7 +8,6 @@ function Temp() {
     const onchangetemp = (event) => {
         newtemp(event.target.value)
     }
-    // C to f =(230°C × 9/5) + 32
     // F to c= (32°F − 32) × 5/9
 
     const togbtn = () => {

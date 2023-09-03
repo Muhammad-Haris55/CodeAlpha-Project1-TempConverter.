@@ -27,7 +27,8 @@ function Temp() {
     }
     const convertbtn = () => {
         newtemp("")
-        // Farehnhit to celcius 
+        // Farehnhit to celcius     
+        let ntemp = Number.parseInt(temp)
         let Celsius = ((ntemp - 32) * (5 / 9))
         let newcel = Math.round(Celsius)
         console.log("Cel" + newcel)

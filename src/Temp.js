@@ -27,25 +27,21 @@ function Temp() {
     }
     const convertbtn = () => {
         newtemp("")
-        // Farehnhit to celcius Formula
-        let ntemp = Number.parseInt(temp)
+        // Farehnhit to celcius         let ntemp = Number.parseInt(temp)
         let Celsius = ((ntemp - 32) * (5 / 9))
         let newcel = Math.round(Celsius)
         console.log("Cel" + newcel)
         document.getElementById("degree").innerHTML = (newcel + "°Celsius")
         // celsius to farhenhiet
         if (mode == "Celsius") {
-            console.log("hello")
-            //     // C × (9/5) + 32
             let ntemp = Number.parseInt(temp)
             let Fahrenheit = (((ntemp) * (9 / 5)) + 32)
             let newcel = Math.round(Fahrenheit)
             console.log("Far" + newcel)
             document.getElementById("degree").innerHTML = (newcel + "°Fahrenheit")
-            // °Fahrenheit
+         
         }
     }
-    // 
     return (
         <>
             <div className='main'>
@@ -99,10 +95,7 @@ function Temp() {
                         </div>
                     </div>
                     <div className='weather text-center'>
-                        {/* <p>{"temp"}F</p> */}
-                        {/* <p className="update text-center">Feels Like:{"feel"}F</p> */}
-                        {/* <p className="update text-center">{"cond"}</p> */}
-                    </div>
+                       </div>
                 </div>
             </div>
         </>
